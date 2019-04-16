@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "develop": "webpack-dev-server --env.PORT=$PORT --env.DIST=$DIST",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/nishisuke/me#readme",
   "devDependencies": {
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
   }
 }

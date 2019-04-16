@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "develop": "webpack-dev-server --env.PORT=$PORT --env.DIST=$DIST",
+    "dev": "webpack-dev-server --env.PORT=$PORT --env.DIST=$DIST",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

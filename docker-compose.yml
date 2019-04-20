@@ -3,6 +3,7 @@ services:
   npmrun:
     build: .
     entrypoint: npm run
+    command: dev
     ports:
      - 8080:8080
     volumes:

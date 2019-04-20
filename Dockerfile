@@ -1,8 +1,0 @@
-FROM node
-
-WORKDIR /app
-
-ENV PORT 8080
-ENV DIST docs
-
-EXPOSE $PORT

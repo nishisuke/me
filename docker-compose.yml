@@ -1,10 +1,12 @@
 version: '2'
 services:
   npmrun:
-    build: .
+    image: node
+    env_file: .env
+    working_dir: "${WDIR}"
     entrypoint: npm run
     command: dev
     ports:
-     - 8080:8080
+      - "${PORT}:${PORT}"
     volumes:
-     - .:/app
+      - ".:${WDIR}"
